@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Doctor's Appointment</title>    
+</head>    
+<body>
+<h1>🏥 My Doctor's Appointment</h1>   
+<p>Fill in the form below to book your appointment!</p> 
+<hr>
+<form>
+<fieldset>
+<legend>Personal Details</legend>   
+<label>Patient ID</label><br>
+<input type="password" id="pid" placeholder="Your ID/Code"><br><br>
+<label>Date Of Birth</label><br>
+<input type="date" id="dob"><br> 
+</fieldset>  
+<br>
+<fieldset>
+<legend>Your Visit</legend>    
+<label>Choose Your Doctor</label><br>
+<select id="doctor">
+<option value="">--Select Your Doctor--</option>
+<option value="dr-srinath">Dr.Srinath-Pediatrician</option>
+<option value="dr-manjunath">Dr.Manjunath-General Physician</option>
+<option value="dr-dhatri">Dr.Dhatri-Cardiologist</option>
+<option value="dr-vaanya">Dr.Vaanya-Dentist</option>
+</select>
+<br><br>
+<label>Why Are You Visiting?</label><br>
+<input type="radio" name="reason" value="fever"> Fever<br>
+<input type="radio" name="reason" value="cold"> Cold<br>
+<input type="radio" name="reason" value="cough"> Cough<br>
+<input type="radio" name="reason" value=tooth pain> Tooth Pain<br>
+<input type="radio" name="reason" value="general check-up"> General Check-up<br><br>
+</fieldset>  
+<br>
+<br>
+<label>Any Notes For The Doctor?</label><br>
+<textarea id="notes" rows="3" cols="35" placeholder="Example:I have had a sore throat for 2 days."></textarea><br>
+<input type="submit" value="Book My Appointment">
+</form>
+</body>
+</html>
